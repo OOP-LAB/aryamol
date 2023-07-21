@@ -1,4 +1,4 @@
- public class product
+public class product
 {
 int pcode;
 String pname;

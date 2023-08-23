@@ -42,12 +42,10 @@ import java.util.*;
 	  int eno;
 	  String ename;
 	  int salary;
-	  employee(int eid,String enme,int salary)
-	  
-	  
+	  employee(int eid,String ename,int salary)
 	  {
-	  eno=eid;
-	  ename=ename;
-	  salary=salary;
+	    eno=eid;
+	    ename=ename;
+	    salary=salary;
 	  }
-       }
+	}

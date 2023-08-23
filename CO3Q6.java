@@ -23,7 +23,7 @@ System.out.println("Perimeter of the circle: "+(2*pi*r));
 @Override
 public void area()
 {
-System.out.println("Perimeter of the circle: "+(pi*r*r));
+System.out.println("area of the circle: "+(pi*r*r));
 }}
 class Rectangle implements prop
 {
@@ -39,7 +39,7 @@ b = sc.nextDouble();
 @Override
 public void area()
 {
-System.out.println("Perimeter of a rectangle: "+(l*b));
+System.out.println("area of a rectangle: "+(l*b));
 }
 @Override
 public void perimeter()
@@ -48,7 +48,7 @@ System.out.println("Perimeter of a rectangle: "+(2*(l+b)));
 }}
 public class CO3Q6
 {
-public static void main(String[] args)
+public static void main(String[] args);
 {
 int ch;
 Scanner sc = new Scanner(System.in);
